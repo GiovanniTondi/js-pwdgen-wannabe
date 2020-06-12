@@ -8,7 +8,7 @@ var surname = prompt("Inserisci il tuo cognome:");
 var color = prompt("Inserisci il tuo colore preferito");
 
 // Concatenare variabili
-var pwd = name + surname + color + '19';
+var pwd = "La tua password è: <br>" + name + surname + color + '19';
 
 // Stampa pwd
 document.getElementById('pwd').innerHTML = pwd;

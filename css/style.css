@@ -9,6 +9,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.04em;
-    font-size: 16px;
+}
+
+/* Contenuto */
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+}
+
+.jumbo {
+    padding: 50px;
+    width: 30%;
+    background-color: #f6f6f6;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 60px;
 }
